@@ -16,3 +16,9 @@ main
             -> scan_directory_postorder(child_dir)   (recursive, for subdirectories)
        -> closedir
        -> printf (post-order output)
+
+## Sources
+
+The project was completed using online forums and the Unix manual pages (stat, readdir, opendir).
+
+Testing strategies and debugging were provided by ChatGPT, all final code was written by the me. 
